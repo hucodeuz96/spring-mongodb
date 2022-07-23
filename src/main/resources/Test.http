@@ -1,0 +1,27 @@
+###
+POST http://localhost:8080/user
+Content-Type: application/json
+Authorization: Bearer ehytoken
+
+{
+  "fullName":"Jafar"
+}
+
+
+###
+GET http://localhost:8080/user
+
+###
+GET http://localhost:8080/user/Jafarqwerty
+
+###
+PUT http://localhost:8080/user/62dbf0760437342386b65be3
+Content-Type: application/json
+
+{
+  "fullName": "Ketmon"
+}
+
+
+
+
